@@ -1,6 +1,8 @@
 # TODO menu z wyborem listy napisy wyjście
 wprowadzone  = input ('listy - przejście do menu listy,\nnapisy - przejscie do menu napisy,\nw - wyjscie z programu\n')
 
+def listy():
+
 while True :
     if wprowadzone == 'w':
         break
